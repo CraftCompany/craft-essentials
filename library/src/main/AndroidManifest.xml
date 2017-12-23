@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.craft.essentials">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:label="@string/app_name"
+        android:theme="@style/CraftTheme">
+
+        <activity
+            android:label="@string/essentials_title_activity_help"
+            android:name=".userhelp.activity.HelpActivity"
+            android:theme="@style/CraftTheme.NoActionBar" />
+
+        <activity
+            android:label="@string/essentials_title_activity_feedback"
+            android:name=".userhelp.activity.FeedbackActivity"
+            android:theme="@style/CraftTheme" />
+
+    </application>
+
+</manifest>

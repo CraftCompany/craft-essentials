@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- The default theme for CraftCompany apps -->
+    <style name="CraftTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CraftTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="CraftTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="CraftTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
