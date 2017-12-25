@@ -1,4 +1,5 @@
 # CraftEssentials
+[ ![Download](https://api.bintray.com/packages/craftco/libaries/craft-essentials/images/download.svg) ](https://bintray.com/craftco/libaries/craft-essentials/_latestVersion)
 ## About
 CraftEssentials is a Android library created to fulfill some 
 possibly annoying features to implement in Android apps from setting up a 
