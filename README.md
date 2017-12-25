@@ -5,8 +5,18 @@ possibly annoying features to implement in Android apps from setting up a
 navigation drawer to showing a help activity.
 
 ## Installation
-Currently, there is no Maven repository for this project, so Git submodules
-are the preferred way into install this library:
+### Gradle projects
+If you use a Gradle-based build environment, add this dependency to your app's
+`build.gradle`:
+```groovy
+dependencies {
+    // ...
+    implementation 'com.craft.libraries:essentials:1.0.0'
+}
+```
+
+### Other (Git submodule)
+Alternatively, you can use Git submodules to install this library:
 
 ```shell
 git submodule add https://github.com/CraftCompany/craft-essentials.git CraftEssentials
@@ -26,3 +36,17 @@ depdendencies {
     // ...
 }
 ```
+
+## Contributing
+### Deploying to Bintray
+Prerequisite: make sure you're registered in the CraftCompany Bintray 
+[organization](https://bintray.com/craftco).
+1) Create a `bintray.properties` file at the root of the project.
+2) Add two lines for your credentials in `bintray.properties`, replacing
+   yourusername` and `yourapikey` with your Bintray username and API key,
+   respectively:
+    ```properties
+    user=yourusername
+    key=yourapikey
+    ```
+3) Run `./gradlew install bintrayUpload` to deploy the library.
