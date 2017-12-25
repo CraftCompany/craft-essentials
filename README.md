@@ -43,7 +43,7 @@ Prerequisite: make sure you're registered in the CraftCompany Bintray
 [organization](https://bintray.com/craftco).
 1) Create a `bintray.properties` file at the root of the project.
 2) Add two lines for your credentials in `bintray.properties`, replacing
-   yourusername` and `yourapikey` with your Bintray username and API key,
+   `yourusername` and `yourapikey` with your Bintray username and API key,
    respectively:
     ```properties
     user=yourusername
